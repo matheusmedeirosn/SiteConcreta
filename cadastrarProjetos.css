@@ -1,0 +1,146 @@
+body{
+    background-image: url("imagens/fundoconcreta01.png");
+    background-repeat: no-repeat;
+    background-position-y:450px;
+    background-size: 1400px;
+}
+header{
+    background-color: rgb(248, 247, 247);
+    padding-bottom:15px;
+}
+.logoconcreta{
+    max-width: 140px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(168, 44, 44);
+    margin: -38px 0 0 91px;
+}
+ul{
+    margin-top: 30PX;
+    text-decoration: none;  
+}
+aside{
+    width:20%;
+    float: left;
+}
+aside ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+    width: 150px;
+    margin: 0px 0 0 42px;
+  }
+main{
+    width:80%; 
+    float: left;
+}
+.mais{
+    max-width: 27px;
+    max-height: 30px;
+    border: 1PX solid black;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+    cursor: pointer;
+}
+.imagensjuntas{
+    margin: 31px 0px 0 68%;
+    opacity: 90%;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 20px;
+    color: rgb(168, 44, 44);
+    margin: -15px 0 0 0px;
+}
+fieldset {
+    border: 0;
+}
+#corpo-cliente{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    margin-left: 3%;
+    margin-top: -6%;
+    justify-content: center;
+}
+input, select, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+}
+.grupo { 
+    display: table;
+    clear: both;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"], .campo .campo input[type="number"], .campo input[type="date"], .campo select {
+    padding: 0.2em;
+    border: 1px solid rgb(192, 28, 28);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    border-radius: 7px;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select {
+    background: #FFFF;
+}
+.confirmar{
+    padding: 3px;
+    margin: 57px ;
+    font-size: 20px;
+    display: inline-block;
+    width: 170px;
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    top: 440px;
+    color: white;
+    background-color:rgb(170, 2, 2);
+}
+.Voltar{
+    padding: 3px;
+    margin: 57px ;
+    font-size: 20px;
+    display: inline-block;
+    width: 170px;
+    border-radius: 10px;
+    position: absolute;
+    left: 720px;
+    top: 440px;
+    color: white;
+    background-color:rgb(170, 2, 2);
+}
+
+a.botaoInicio{
+    text-decoration: none;
+    color: black;
+}

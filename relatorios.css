@@ -1,0 +1,221 @@
+body{
+    background-image: url("imagens/fundoconcreta01.png");
+    background-repeat: no-repeat;
+    background-position-y:370px;
+}
+header{
+    background-color: rgb(248, 247, 247);
+    padding-bottom:15px;
+}
+.logoconcreta{
+    max-width: 140px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(168, 44, 44);
+    margin: -38px 0 0 91px;
+}
+ul{
+    margin-top: 30PX;
+}
+aside{
+    width:20%;
+    float: left;
+}
+aside ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+    width: 150px;
+    margin: 0px 0 0 42px;
+  }
+main{
+    width:80%; 
+    float: left;
+}
+.mais{
+    max-width: 27px;
+    max-height: 30px;
+    border: 1PX solid black;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+    
+}
+.imagensjuntas{
+    margin: 31px 0px 0 68%;
+    opacity: 90%;
+}
+h2{
+    font-size: 28px;
+    color: rgb(168, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 300px;
+    top: 123px;
+}
+#content{
+    width: 1000px;
+    height: 400px;
+    border: 1px solid lightgray;  
+    background-color: whitesmoke;          
+    position: fixed;
+    right: 70px;
+    bottom: 80px;
+    border-style: ridge;
+    border-radius: 30px;
+}
+#procurar{
+    width: 495px;
+    height: 40px;
+    border: 1px solid lightcoral;        
+    position: fixed;
+    left: 340px;
+    top: 195px;
+    border-style: ridge;
+    border-radius: 15px;
+
+}
+.lupa{
+    max-width: 20px;
+    max-height: 20px;
+    position: fixed;
+    left: 350px;
+    top: 205px;
+    
+
+}
+::placeholder{
+    color: black;
+    font-size: 18px;
+    letter-spacing: normal;
+    transform: scale(0.85);
+    
+    
+    
+}
+#l1{
+    position: fixed;
+    left: 345px;
+    top: 255px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+    
+}
+#l2{
+    position: fixed;
+    left: 345px;
+    top: 305px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+    
+}
+#l3{
+    position: fixed;
+    left: 345px;
+    top: 355px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+    
+}
+#l4{
+    position: fixed;
+    left: 345px;
+    top: 405px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+}
+#l5{
+    position: fixed;
+    left: 345px;
+    top: 455px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+}
+#l6{
+    position: fixed;
+    left: 345px;
+    top: 505px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border-style: bottom;
+    border-width: 1px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    background-color: whitesmoke;
+    height: 25px;
+    width: 900px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    font-size: 18px;
+}
+  
+button{
+    width: 50px;
+    height: 50px; 
+    color: white; 
+    background-color: rgb(165, 4, 4); ;         
+    position: fixed;
+    right: 198px;
+    bottom: 420px;
+    font-size: 30px;
+}
+
+a.botaoInicio{
+    text-decoration: none;
+    color: black;
+}

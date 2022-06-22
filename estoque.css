@@ -1,0 +1,108 @@
+body{
+    background-image: url("imagens/fundoconcreta01.png");
+    background-repeat: no-repeat;
+    background-position-y:370px;
+}
+header{
+    background-color: rgb(248, 247, 247);
+    padding-bottom:15px;
+}
+.logoconcreta{
+    max-width: 140px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(168, 44, 44);
+    margin: -38px 0 0 89px;
+}
+ul{
+    margin-top: 30PX;
+}
+aside{
+    width:20%;
+    float: left;
+}
+aside ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+    width: 150px;
+    margin: 0px 0 0 42px;
+  }
+main{
+    width:80%; 
+    float: left;
+}
+.mais{
+    max-width: 27px;
+    max-height: 30px;
+    border: 1PX solid black;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+}
+.imagensjuntas{
+    margin: 31px 0px 0 68%;
+    opacity: 90%;
+}
+
+.titulo{
+    position: fixed;
+    left: 190px;
+    font-size: 28px;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.tabela{
+    color: black;
+    border-spacing: 5px;
+
+}
+
+th{
+    padding: 5px;
+    text-align: left;
+    font-family : Arial , Helvetica , sans-serif;
+}
+
+td{
+    padding: 5px;
+    color: red;
+}
+
+input{
+    border: 1px solid rgb(192, 28, 28);
+    display: block;
+    border-radius: 7px;
+    width:410px;
+    height: 30px;
+}
+
+.confirmar{
+    padding: 3px;
+    margin: 57px ;
+    font-size: 20px;
+    display: inline-block;
+    width: 170px;
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    top: 400px;
+    color: white;
+    background-color:rgb(170, 2, 2); 
+}
+
+a.botaoInicio{
+    text-decoration: none;
+    color: black;
+}

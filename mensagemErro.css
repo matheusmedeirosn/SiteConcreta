@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(170, 2, 2);
+}
+
+div#retangulo{
+    background-color: white;
+    left: 220px;
+    top: 70px;
+    height: 500px;
+    width: 900px;
+    float: none;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+div#center{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(170, 2, 2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    padding:5px 60px 5px 60px;
+    background-color: rgb(170, 2, 2);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}    

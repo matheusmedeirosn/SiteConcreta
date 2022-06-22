@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(170, 2, 2);
+}
+
+div#coluna{
+    background-color: white;
+    left: 220px;
+    top: 70px;
+    height: 500px;
+    width: 900px;
+    float: none;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+h1{
+    position: absolute;
+    left: 420px;
+    top: 130px;
+    font-size: 40px;
+}
+
+input#senha{
+    position: absolute;
+    width:400px;
+    height:50px;
+    border: 5px solid; 
+    border-color: #d3d3d3;
+    border-radius: 25px;
+    top: 250px;
+    left: 480px;
+}
+
+input#senhaConfirme{
+    position: absolute;
+    width:400px;
+    height:50px;
+    border: 5px solid; 
+    border-color: #d3d3d3;
+    border-radius: 25px;
+    top: 330px;
+    left: 480px;
+}
+
+button{
+    padding: 5px;
+    margin: 15px ;
+    font-size: 20px;
+    display: inline-block;
+    width: 170px;
+    border-radius: 10px;
+    position: absolute;
+    right: 460px;
+    top: 410px;
+    color: white;
+    background-color:rgb(170, 2, 2);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Projeto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" type="logoconcreta.png" href="imagens/logo-icone.png" />
+    <link rel="stylesheet" href="cadastrarClientes.css">
+</head>
+<body>
+    <header>
+        <a href="telaInicial.html"><img class="logoconcreta" src="imagens/logo_concreta02.png"></a>
+        <h1><strong>Concreta Edificações</strong></h1>
+    </header>
+    <aside>
+        <ul>
+            <li><a href="telaInicial.html" class="botaoInicio">Início</a></li>
+            <li><a href="cadastrarClientes.html" class="botaoInicio">Clientes</a></li>
+            <li><a href="cadastrarProjetos.html" class="botaoInicio">Projetos</a></li>
+            <li>Cadastro de Estruturas</li>
+            <li>Etapas da Obra</li>
+            <li><a href="relatorios.html" class="botaoInicio">Relatórios</a></li>
+            <li><a href="estoque.html" class="botaoInicio">Estoque</a></li>
+            <li><a href="configuracoes.html" class="botaoInicio">Configurações</a></li>
+        </ul>
+    </aside>
+    <main>
+        <div class="imagensjuntas">
+            <img class="mais" src="imagens/lupa.png"></a>
+            <img class="mais" src="imagens/+.png"></a>
+            <img class="mais" src="imagens/x.webp"></a>
+            <img class="mais" src="imagens/lixo.png"></a>
+            <img class="mais" src="imagens/voltar.png"></a>
+        </div>
+        <div id="corpo-cliente">
+            <div class="right">
+                <h1 id="titulo">Cadastrar Projeto</h1><br><br>
+            </div>
+            <form>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome">Nome do Projeto</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="data">Data Inicial</label>
+                        <input type="date" name="data_inicial" id="data_inicial" required>
+                    </div>
+                    <div class="campo">
+                        <label for="data">Previsão de entrega</label>
+                        <input type="date" name="data_entrega" id="data_entrega" required>
+                    </div>
+                </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="numero">Código de identificação</label>
+                        <input type="text" name="codigo" id="codigo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="nome">Engenheiro Responsável</label>
+                        <input type="text" name="responsavel" id="responsavel" required>
+                    </div>
+                    <div class="campo">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" required>
+                    </div>
+                </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" required>
+                    </div>
+                    <div class="campo">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" required>
+                    </div>
+                    <div class="campo">
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado" required>
+                    </div>
+                </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" required>
+                    </div>
+                    <div class="campo">
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" id="rua" required>
+                    </div>
+                    <div class="campo">
+                        <label for="numero">Número</label>
+                        <input type="text" name="numero" id="numero" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="campo">
+                        <label for="compleento">Complemento</label>
+                        <input type="text" name="complemento" id="complemento">
+                    </div>
+                </fieldset>
+                <fieldset class="botao">
+                    <button class="confirmar" type="submit" onsubmit="">Confirmar</button>
+                    <button class="Voltar" type="submit" onsubmit="">Voltar</button>
+                </fieldset>
+            </form> 
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
