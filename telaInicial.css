@@ -6,6 +6,8 @@ body{
 header{
     background-color: rgb(248, 247, 247);
     padding-bottom:15px;
+    height: 75px;
+
 }
 .logoconcreta{
     max-width: 140px;
@@ -14,7 +16,9 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(168, 44, 44);
-    margin: -38px 0 0 91px;
+    margin: -55px 0 0 105px;
+
+    
 }
 ul{
     margin-top: 30PX;
